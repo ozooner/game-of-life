@@ -8,8 +8,8 @@ var opts = {
   tickSpeed: 100, //in milliseconds
 }
 
-var canvas, cols, rows;
-var gameMap = [];
+var canvas;
+var gameMap = [];  //matrix representing the game grid
 
 function createCanvas(){
   var cnv = document.createElement('canvas');
